@@ -34,27 +34,29 @@
 			<a class="btn" href="#">Узнать больше</a>
 			</div>
 		</div>
-		<div class="callouts">
-			<div class="one-third">
-				<a href="web-sites.html"><img src="img/web-sites.png"></a>
-				<h3>Веб-сайты</h3>
-				<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-				<a class="btn red" href="#">Заказать</a>
+		<div class="callout-list">
+			<div class="callout">
+				<a href="web-sites.html" class="callout-img"><img src="img/web-sites.png"></a>
+				<h3 class="callout-title">Веб-сайты</h3>
+				<p class="callout-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+				<a class="btn" href="#">Заказать</a>
 			</div>
-			<div class="one-third">
+			<div class="callout">
 				<a href="apps.html"><img src="img/apps.png"></a>
 				<h3>Приложения</h3>
 				<p>Покорите топ-10 приложений в AppStrore и Google Play</p>
-				<a class="btn green" href="#">Заказать</a>
+				<a class="btn btn-green" href="#">Заказать</a>
 			</div>
-			<div class="one-third">
+			<div class="callout">
 				<a href="presentations.html"><img src="img/presentations.png"></a>
 				<h3>Презентации</h3>
 				<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-				<a class="btn yellow" href="#">Заказать</a>
+				<a class="btn btn-yellow" href="#">Заказать</a>
 			</div>
 		</div>
-		<div class="explanation">
+		<!-- имена классов должны быть одноазначно поятны и соответствовать -->
+		<!-- нужно задавать классы а не тэги.  -->
+		<div class="about">
 			<div class="left-column">			
 				<b>Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
 				<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
@@ -65,6 +67,8 @@
 				<!-- перед и после "Since" нужно вставить черточки, пока ещё не понял как -->
 			</div>
 			<div class="left-column">
+				<!-- это сделай списком -->
+				<!-- каждый пару лефт/райт блок в отдельный див -->
 				<p>Выполняем заказы на разработку:<br>
 					Веб-сайтов любой сложности<br>
 					Мобильных приложений для iOS и Android<br>
@@ -78,12 +82,15 @@
 					По предоплате 50%
 				</p>
 			</div>
-			<div class="partners">
-				<a href="#"><img src="img/glukhanko-logo.png"></a>
-				<a href="#"><img src="img/html-academy-logo.png"></a>
-				<a href="#"><img src="img/borodinsky-logo.png"></a>
-			</div>
 		</div>
+		<div class="partners">
+			<a href="#"><img src="img/glukhanko-logo.png"></a>
+			<a href="#"><img src="img/html-academy-logo.png"></a>
+			<a href="#"><img src="img/borodinsky-logo.png"></a>
+		</div>
+	</main>
+
+	<footer class="main-footer">
 		<div class="map-container">
 			<p>тут должна быть карта</p>
 			<div class="contacts-info">
@@ -91,14 +98,16 @@
 				<a class="btn">Напишите нам</a>
 			</div>
 		</div>
-	</main>
-	<footer>
-		<div class="social-icons">
-			<a href="#"><img src="img/icon-vk.png"></a>
-			<a href="#"><img src="img/icon-facebook.png"></a>
-			<a href="#"><img src="img/icon-instagramm.png"></a>
-		</div>
-		<div class="social-callout"><p><b>Давайте дружить, это выгодно!</b>Скидка 10% для друзей из социальных сетей.</p></div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="social-icons">
+					<a href="#"><img src="img/icon-vk.png"></a>
+					<a href="#"><img src="img/icon-facebook.png"></a>
+					<a href="#"><img src="img/icon-instagramm.png"></a>
+				</div>
+				<div class="social-callout"><b>Давайте дружить, это выгодно!</b>Скидка 10% для друзей из социальных сетей.</div>
+			</div>
+		</div>	
 	</footer>  
     
 
